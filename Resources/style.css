@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(195, 221, 238);
+}
+.testimonial {
+    margin-top: 6%;
+}
+h1 {
+    color: rgb(55, 105, 172);
+    margin-bottom: 20px;
+}
+h1, .text {
+    text-align: center;
+}
+h4 {
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+.text {
+    margin-bottom: 10px;
+}
+.team {
+    display: flex;
+}
+.team .testimonials {
+    background: #fff;
+    margin: 50px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+h3, h4, .test {
+    margin-left: 70px;
+}
+.team .testimonials .testimonials-img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.team .testimonials .testimonials-img img {
+    width: 100px;
+    height: 100px;
+    margin: -50px;
+    margin-top: 20px;
+}
+@media (max-width: 750px) {
+    .team {
+        display: block;
+    }
+    h1, .text {
+        text-align: center;
+    }
+}
